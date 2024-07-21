@@ -1,0 +1,84 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "qhwJ6FGauVgGHDHrLxFKsV",
+      "projectApiToken": "87hKLG7LF3SmzEGIQpY4Cd7Lz39cuDLHt5OOCKjvroRNjUgYXAjsWKSqn2ZK5V9h56fwu4oeJPBdZCGmXXVA",
+      "projectName": "CMS starter",
+      "version": "latest",
+      "cssFilePath": "plasmic/cms_starter/plasmic.module.css",
+      "components": [
+        {
+          "id": "eF5JuUzpuP9G",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "qhwJ6FGauVgGHDHrLxFKsV",
+          "renderModuleFilePath": "plasmic/cms_starter/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/cms_starter/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "tTx1KECUX55H",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "VE0JAlvjp5Z_",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "ZAstxBY9qDUd",
+        "name": "Screen",
+        "projectId": "qhwJ6FGauVgGHDHrLxFKsV",
+        "contextFilePath": "plasmic/cms_starter/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.331",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.331/dist/plasmic.schema.json"
+}
